@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.indovex.app",
+    "sha256_cert_fingerprints": [
+      "2D:98:08:60:E2:0A:31:0D:4C:D7:98:F0:6F:88:7C:54:84:56:D0:9B:7B:4C:20:31:D7:C9:DB:57:D3:AD:26:53"
+    ]
+  }
+}]
