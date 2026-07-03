@@ -112903,7 +112903,7 @@ if(h&&!e)B.l.K(n,A.b([B.dX,m.v4("Suspender",B.t1,B.X,new A.aKq(m,a),!0),B.dX,m.v
 if(h&&e){h=A.as(8)
 B.l.K(n,A.b([B.dX,A.aN(l,A.aC(A.b([A.b4(B.jS,B.b4,l,13),B.cB,A.aW(A.t("Esta es tu empresa \u2014 no puede suspenderse ni darse de baja",l,l,l,l,A.a3(l,l,B.b4,l,l,l,l,l,l,l,l,11,l,l,l,l,l,!0,l,l,l,l,l,l,l,l),l,l,l),1)],p),B.H,B.x,B.C,0),B.K,l,l,new A.bf(B.c5,l,l,h,l,l,B.a6),l,l,l,B.yu,l,l,l)],p))}if(!i||g==="en_baja"||g==="a_purgar")B.l.K(n,A.b([B.dX,m.v4(j,B.zd,B.E,new A.aKt(m,a),!0)],p))
 if(!i||g==="en_baja"||g==="a_purgar")B.l.K(n,A.b([B.dX,m.NM("Reactivar",B.zk,B.aj,new A.aKu(m,a))],p))
-if(!i||g==="en_baja"||g==="a_purgar")B.l.K(n,A.b([B.dX,m.v4("Purgar definitivamente",B.a07,B.hQ,new A.aKv(m,a),!0)],p))
+if(g==="a_purgar")B.l.K(n,A.b([B.dX,m.v4("Purgar definitivamente",B.a07,B.hQ,new A.aKv(m,a),!0)],p))
 return A.d5(new A.FZ(q,new A.af(B.ZC,o,l),new A.aKw(m,f),n,B.ZP,B.ZM,l),l,1,l,new A.bt(r,B.S))},
 alr(a,b){var s,r,q,p,o,n,m=null,l=this.aoU(J.K(a,"fecha_purga_programada"))
 if(l==null)return B.by
