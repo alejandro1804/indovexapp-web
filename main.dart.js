@@ -31579,14 +31579,15 @@ _.a=a
 _.c=b
 _.d=c
 _.f=d},
-aF7:function aF7(a,b,c,d,e,f,g){var _=this
+aF7:function aF7(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
 _.d=c
 _.w=d
 _.x=e
 _.y=f
-_.z=g},
+_.z=g
+_.Q=h},
 tQ:function tQ(a,b,c){var _=this
 _.a=a
 _.b=b
@@ -111615,10 +111616,10 @@ A.jB.prototype={}
 A.is.prototype={}
 A.aF7.prototype={
 ff(a){if(this.y)return!0
-return J.xW(this.z,a)},
+return J.xW(this.Q,a)},
 gaLQ(){var s,r
 if(this.y)return!1
-s=this.z
+s=this.Q
 r=J.a5(s)
 return r.p(s,"gestionar_usuarios")&&r.p(s,"gestionar_roles")}}
 A.tQ.prototype={
@@ -111665,44 +111666,47 @@ VN(){var s=this,r=s.b
 if((r==null?null:r.y)!==!0)return
 s.r=!s.r
 s.R()},
-o6(){var s=0,r=A.p(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a
-var $async$o6=A.l(function(a0,a1){if(a0===1){o.push(a1)
-s=p}for(;;)switch(s){case 0:d=m.a
-c=d.ge2().c
-b=c==null?null:c.r
-if(b==null){s=1
+o6(){var s=0,r=A.p(t.H),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f,e,d,c,b,a,a0
+var $async$o6=A.l(function(a1,a2){if(a1===1){o.push(a2)
+s=p}for(;;)switch(s){case 0:c=m.a
+b=c.ge2().c
+a=b==null?null:b.r
+if(a==null){s=1
 break}m.R()
 p=4
 s=7
-return A.h(d.an("usuarios").bo(0,"*, roles(nombre)").b1("id",b.a).ew(0),$async$o6)
-case 7:l=a1
+return A.h(c.an("usuarios").bo(0,"*, roles(nombre, restringe_por_sector)").b1("id",a.a).ew(0),$async$o6)
+case 7:l=a2
 s=8
 return A.h(m.Ew(),$async$o6)
-case 8:k=a1
-d=l
-c=J.a5(d)
-j=c.h(d,"id")
-i=c.h(d,"empresa_id")
-c.h(d,"rol_id")
-h=c.h(d,"nombre")
-c.h(d,"email")
-c.h(d,"telefono")
-c.h(d,"estado")
-g=c.h(d,"roles")
+case 8:k=a2
+c=l
+b=J.a5(c)
+j=b.h(c,"id")
+i=b.h(c,"empresa_id")
+b.h(c,"rol_id")
+h=b.h(c,"nombre")
+b.h(c,"email")
+b.h(c,"telefono")
+b.h(c,"estado")
+g=b.h(c,"roles")
 g=g==null?null:J.E(g,"nombre")
 if(g==null)g=""
-f=c.h(d,"primer_login")
+f=b.h(c,"primer_login")
 if(f==null)f=!1
-d=c.h(d,"es_super_admin")
-if(d==null)d=!1
-m.b=new A.aF7(j,i,h,g,f,d,k)
+e=b.h(c,"es_super_admin")
+if(e==null)e=!1
+c=b.h(c,"roles")
+c=c==null?null:J.E(c,"restringe_por_sector")
+if(c==null)c=!1
+m.b=new A.aF7(j,i,h,g,f,e,c,k)
 s=9
 return A.h(m.Et(i),$async$o6)
 case 9:n.push(6)
 s=5
 break
 case 4:p=3
-a=o.pop()
+a0=o.pop()
 m.b=null
 n.push(6)
 s=5
@@ -120670,7 +120674,7 @@ if(l==null){n=[1]
 s=5
 break}f.a=null
 e=m.d
-s=l.w==="encargado"?7:9
+s=l.z?7:9
 break
 case 7:s=10
 return A.h(e.an("usuario_sector").bo(0,"sector_id").b1("usuario_id",l.a),$async$vZ)
@@ -120937,7 +120941,7 @@ a2=a1.a=A.cF(k,!0,t.P)
 s=8
 break
 case 9:a2=m.d
-s=l.w==="encargado"?11:13
+s=l.z?11:13
 break
 case 11:s=14
 return A.h(a2.an("usuario_sector").bo(0,"sector_id").b1("usuario_id",l.a),$async$lD)
