@@ -114987,7 +114987,7 @@ $0(){A.aj(this.a,!1).au(!0)
 return null},
 $S:0}
 A.aMQ.prototype={
-$1(a){var s=null,r=A.q('\xbfIniciar la baja voluntaria de "'+A.h(J.z(this.a,"empresa_nombre"))+'"?\n\nEl acceso se bloquea y comienza el plazo para exportar sus datos. Record\xe1 generar y entregar el backup antes de purgar.',s,s,s,s,s,s,s,s)
+$1(a){var s=null,r=A.q('\xbfIniciar la baja voluntaria de "'+A.h(J.z(this.a,"empresa_nombre"))+'"?\n\nEl acceso se bloquea y comienza el plazo de conservaci\xf3n configurado, durante el cual la cuenta puede reactivarse recuperando toda la informaci\xf3n. Record\xe1 generar y entregar el backup antes de purgar.',s,s,s,s,s,s,s,s)
 return A.cW(A.b([A.c7(B.b_,new A.aMO(a),s),A.cx(B.b7_,new A.aMP(a),A.c6(s,s,B.ri,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s))],t.p),r,!1,B.b7K)},
 $S:9}
 A.aMO.prototype={
