@@ -33582,7 +33582,7 @@ case 2:p=h
 s=3
 return A.d(A.lZ("pdf",p.length,null),$async$F9)
 case 3:s=4
-return A.d(A.B9(new Uint8Array(A.ea(p)),"auditoria_indovex_"+n+".pdf"),$async$F9)
+return A.d(A.B9(new Uint8Array(A.ea(p)),"auditoria_indovexapp_"+n+".pdf"),$async$F9)
 case 4:return A.l(null,r)}})
 return A.m($async$F9,r)},
 un(a,b){var s=null,r=b?9:8,q=b?B.bm:B.fn
@@ -33638,7 +33638,7 @@ m=new A.aro()
 l=A.b([],t.s)
 if(b!=="todos")l.push("Estado: "+A.h(m.$1(b)))
 if(c!=="todos"){q=f.h(0,c)
-l.push("Ubicacion: "+(q==null?c:q))}q=B.m.az(a)
+l.push("Ubicaci\xf3n: "+(q==null?c:q))}q=B.m.az(a)
 if(q.length!==0)l.push('B\xfasqueda: "'+q+'"')
 o.q6(A.AD(new A.arj(l.length===0?"Sin filtros (todos los activos)":B.l.bx(l,"  |  "),d,f,m),new A.ark(),new A.arl(e,new A.arm(),new A.bQ(n,0,!1)),B.mM,B.eZ))
 s=2
@@ -33834,7 +33834,7 @@ h=A.b([],t.s)
 if(b!=="todos")h.push("Estado: "+A.h(k.$1(b)))
 if(e!=="todos")h.push("Tipo: "+A.h(j.$1(e)))
 if(c!=="todos")h.push("Prioridad: "+A.h(i.$1(c)))
-if(d!=="todos")h.push("Ubicacion filtrada")
+if(d!=="todos")h.push("Ubicaci\xf3n filtrada")
 q=B.m.az(a)
 if(q.length!==0)h.push('B\xfasqueda: "'+q+'"')
 p=h.length===0?"Sin filtros (todos los tickets)":B.l.bx(h,"  |  ")
@@ -123992,7 +123992,7 @@ $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  Documento de trazabilidad ALCOA+",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  Documento de trazabilidad ALCOA+",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.agy.prototype={
 $1(a){var s,r,q,p=null,o=A.fk(p,A.k1(4),B.j2),n=this.b,m=J.Y(n),l=t.B
@@ -124315,7 +124315,7 @@ $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  IndovexApp",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  IndovexApp",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.arj.prototype={
 $1(a){var s=this,r=null,q=A.fk(r,A.k1(4),B.j2),p=A.bE("Filtros aplicados",r,A.eA(r,B.fy,r,r,r,r,r,r,r,B.bb,r,r,9,r,B.bm,r,!0,r,r,r,r),r),o=A.bE(s.a,r,B.ed,r),n=s.b,m=n.length,l=m!==1?"s":"",k=t.B
@@ -124323,7 +124323,7 @@ q=A.ed(r,A.hi(A.b([p,new A.dh(r,2,r),o,new A.dh(r,2,r),A.bE("Total: "+m+" activo
 l=A.t7(B.cU,0.5)
 m=A.Z([0,B.kk,1,B.kj,2,B.iC,3,B.tD],t.S,t.PA)
 o=A.fk(r,r,A.me("#1F4E79"))
-o=A.b([new A.db(A.b([A.vR("Nombre",!0),A.vR("C\xf3digo",!0),A.vR("Ubicacion",!0),A.vR("Estado",!0)],k),o)],t.nk)
+o=A.b([new A.db(A.b([A.vR("Nombre",!0),A.vR("C\xf3digo",!0),A.vR("Ubicaci\xf3n",!0),A.vR("Estado",!0)],k),o)],t.nk)
 B.l.J(o,new A.W(n,new A.ari(s.c,s.d),A.a1(n).i("W<1,db>")))
 m=A.t6(l,o,m)
 o=new A.iL(B.cU,1,B.dU)
@@ -124440,7 +124440,7 @@ $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  IndovexApp",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  IndovexApp",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.awI.prototype={
 $1(a){var s=this,r=null,q=A.fk(r,A.k1(4),B.j2),p=A.bE("Filtros aplicados",r,A.eA(r,B.fy,r,r,r,r,r,r,r,B.bb,r,r,9,r,B.bm,r,!0,r,r,r,r),r),o=A.bE(s.a,r,B.ed,r),n=s.b,m=J.Y(n),l=m.gt(n),k=m.gt(n)!==1?"es":"",j=t.B
@@ -124570,11 +124570,11 @@ $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  IndovexApp",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  IndovexApp",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.aAn.prototype={
 $1(a){var s,r=this,q=null,p=A.fk(q,A.k1(4),B.j2),o=A.bE("Filtros aplicados",q,A.eA(q,B.fy,q,q,q,q,q,q,q,B.bb,q,q,9,q,B.bm,q,!0,q,q,q,q),q),n=A.bE(r.a,q,B.ed,q),m=r.b,l=m.length,k=l!==1?"s":"",j=r.c,i=j>0
-j=i?"  |  \u26a0 "+j+" con stock bajo":""
+j=i?"  |  "+j+" con stock bajo":""
 s=t.B
 p=A.ed(q,A.hi(A.b([o,new A.dh(q,2,q),n,new A.dh(q,2,q),A.bE("Total: "+l+" repuesto"+k+j,q,B.ed,q)],s),B.de,B.ca),p,B.dD,B.dE)
 j=A.t7(B.cU,0.5)
@@ -124583,7 +124583,7 @@ l=A.fk(q,q,A.me("#1F4E79"))
 l=A.b([new A.db(A.b([A.ml("C\xf3digo",!0,!1),A.ml("Descripci\xf3n",!0,!1),A.ml("Categor\xeda",!0,!1),A.ml("Stock",!0,!1),A.ml("M\xednimo",!0,!1),A.ml("Unidad",!0,!1)],s),l)],t.nk)
 B.l.J(l,new A.W(m,new A.aAm(r.d),A.a1(m).i("W<1,db>")))
 s=A.b([p,A.t6(j,l,k)],s)
-if(i)s.push(A.ed(q,A.bE("\u26a0 Las filas resaltadas tienen stock por debajo del m\xednimo.",q,B.b4L,q),q,B.a0U,q))
+if(i)s.push(A.ed(q,A.bE("Atenci\xf3n: las filas resaltadas tienen stock por debajo del m\xednimo.",q,B.b4L,q),q,B.a0U,q))
 s.push(new A.dh(q,16,q))
 p=new A.iL(B.cU,1,B.dU)
 p=A.fk(new A.jr(p,p,p,p),A.k1(4),q)
@@ -124625,14 +124625,14 @@ default:return a}},
 $S:34}
 A.aFM.prototype={
 $1(a){var s=this,r=null,q=t.B
-return A.ed(r,A.pq(A.b([A.hi(A.b([A.bE(s.a,r,A.eA(r,s.b,r,r,r,r,r,r,r,B.bb,r,r,18,r,B.bm,r,!0,r,r,r,r),r),A.bE("Detalle de Ticket \u2014 "+s.c,r,B.hO,r)],q),B.de,B.ca),A.hi(A.b([A.bE("Generado: "+A.h(s.d.$1(s.e)),r,B.hN,r)],q),B.h_,B.ca)],q),B.eq,B.hr),B.fQ,B.fi,B.dD)},
+return A.ed(r,A.pq(A.b([A.hi(A.b([A.bE(s.a,r,A.eA(r,s.b,r,r,r,r,r,r,r,B.bb,r,r,18,r,B.bm,r,!0,r,r,r,r),r),A.bE("Detalle de Ticket - "+s.c,r,B.hO,r)],q),B.de,B.ca),A.hi(A.b([A.bE("Generado: "+A.h(s.d.$1(s.e)),r,B.hN,r)],q),B.h_,B.ca)],q),B.eq,B.hr),B.fQ,B.fi,B.dD)},
 $S:36}
 A.aFL.prototype={
 $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  IndovexApp",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  IndovexApp",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.aFK.prototype={
 $1(a){var s,r,q,p,o,n=this,m=null,l="observacion_tecnico",k="observacion_encargado",j="Comentario",i=A.fk(m,A.k1(4),B.j2),h=n.a,g=A.baW("Estado",h.$1(n.b)),f=n.d,e=t.B
@@ -124645,7 +124645,7 @@ q=r?m:J.y(s,"nombre")
 q=A.Ck("Activo",q==null?"-":q)
 s=r?m:J.y(s,"codigo")
 s=A.Ck("C\xf3digo",s==null?"-":s)
-r=A.Ck("Ubicacion",n.r)
+r=A.Ck("Ubicaci\xf3n",n.r)
 p=n.w
 i=A.b([i,g,q,s,r,A.Ck("Creado por",p.length!==0?p:"-")],e)
 g=n.x
@@ -124688,7 +124688,7 @@ i.push(A.ed(m,A.bE(u.u,m,B.hJ,m),h,m,B.dE))
 return i},
 $S:65}
 A.aFI.prototype={
-$1(a){var s,r="estado_anterior",q=J.Y(a),p=q.h(a,"fecha"),o=A.fH(p==null?"":p),n=q.h(a,r)!=null?A.h(this.a.$1(q.h(a,r)))+" \u2192 ":""
+$1(a){var s,r="estado_anterior",q=J.Y(a),p=q.h(a,"fecha"),o=A.fH(p==null?"":p),n=q.h(a,r)!=null?A.h(this.a.$1(q.h(a,r)))+" -> ":""
 p=A.kK(n+A.h(this.a.$1(q.h(a,"estado_nuevo"))),!1)
 s=q.h(a,"comentario")
 s=A.kK(s==null?"-":s,!1)
@@ -124715,6 +124715,7 @@ A.aFY.prototype={
 $1(a){switch(a){case"abierto":return"Abierto"
 case"asignado":return"Asignado"
 case"en_proceso":return"En proceso"
+case"pausado":return"Pausado"
 case"resuelto":return"Resuelto"
 case"cerrado":return"Cerrado"
 case"rechazado":return"Rechazado"
@@ -124739,7 +124740,7 @@ $1(a){var s,r=null,q=a.d.d
 q===$&&A.a()
 s=a.a
 s.toString
-return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  \u2014  IndovexApp",r,B.fF,r),r,B.h3,r)},
+return A.ed(B.fO,A.bE("P\xe1gina "+(B.l.fe(q.cx.cx,s)+1)+" de "+q.cx.cx.length+"  -  IndovexApp",r,B.fF,r),r,B.h3,r)},
 $S:36}
 A.aFT.prototype={
 $1(a){var s=this,r=null,q=A.fk(r,A.k1(4),B.j2),p=A.bE("Filtros aplicados",r,A.eA(r,B.fy,r,r,r,r,r,r,r,B.bb,r,r,9,r,B.bm,r,!0,r,r,r,r),r),o=A.bE(s.a,r,B.ed,r),n=s.b,m=n.length,l=m!==1?"s":"",k=t.B
@@ -124747,7 +124748,7 @@ q=A.ed(r,A.hi(A.b([p,new A.dh(r,2,r),o,new A.dh(r,2,r),A.bE("Total: "+m+" ticket
 l=A.t7(B.cU,0.5)
 m=A.Z([0,B.iB,1,B.zX,2,B.hb,3,B.tC,4,B.iB,5,B.iB,6,B.hb,7,B.kj,8,B.tD],t.S,t.PA)
 o=A.fk(r,r,A.me("#1F4E79"))
-o=A.b([new A.db(A.b([A.i7("N\xba",!0),A.i7("Activo",!0),A.i7("Ubicacion",!0),A.i7("Descripci\xf3n",!0),A.i7("Tipo",!0),A.i7("Prioridad",!0),A.i7("Estado",!0),A.i7("T\xe9cnico",!0),A.i7("Fecha",!0)],k),o)],t.nk)
+o=A.b([new A.db(A.b([A.i7("N\xba",!0),A.i7("Activo",!0),A.i7("Ubicaci\xf3n",!0),A.i7("Descripci\xf3n",!0),A.i7("Tipo",!0),A.i7("Prioridad",!0),A.i7("Estado",!0),A.i7("T\xe9cnico",!0),A.i7("Fecha",!0)],k),o)],t.nk)
 B.l.J(o,new A.W(n,new A.aFS(s.c,s.d,s.e,s.f),A.a1(n).i("W<1,db>")))
 m=A.t6(l,o,m)
 o=new A.iL(B.cU,1,B.dU)
